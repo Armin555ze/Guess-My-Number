@@ -26,7 +26,7 @@ header {
 }
 
 main {
-  height: 65vh;
+  height: 55vh;
   color: #eee;
   display: flex;
   align-items: center;
@@ -127,7 +127,7 @@ h1 {
 
 
  /* ======================== MEDIA Queries (SMALL DEVICES ) ===============  */
- @media screen and (min-width: 400px) {
+ @media screen and (max-width: 450px) {
 
     .between {
       font-size: 1rem;
@@ -143,18 +143,23 @@ h1 {
     .guess{
       box-sizing: 1rem;
       width: 20rem;
+      margin-top: 10rem;
+      margin-left: 3rem;
     }
 
     .message {
       font-size: 2rem;
       margin-bottom: 5rem;
+      margin-top: 10rem;
+      margin-left: 1rem;
       
     }
 
     .label-score {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     .highscore {
+      margin-left: 8rem;
       font-size: 2rem;
     }
     .label-highscore {
@@ -164,9 +169,14 @@ h1 {
     .ime{
       width: 70%;
       margin-left: 10rem;
+      margin-top: 3rem;
   
     }
     main {
       height: 50vh;
+    }
+
+    .number {
+      
     }
  }
