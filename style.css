@@ -157,6 +157,7 @@ h1 {
 
     .label-score {
       font-size: 1.5rem;
+      margin-left: 1rem;
     }
     .highscore {
       margin-left: 8rem;
