@@ -161,10 +161,12 @@ h1 {
     .highscore {
       margin-left: 8rem;
       font-size: 2rem;
+      margin-left: 1rem;
     }
     .label-highscore {
       font-size: 1.5rem;
       margin-top: 1rem;
+      margin-left: 1rem;
     }
     .ime{
       display: inline-flex;
