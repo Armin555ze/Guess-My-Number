@@ -53,10 +53,12 @@ document.querySelector('.check').addEventListener
          score--;
          document.querySelector('.score').textContent = 
          score;
+         document.querySelector('.naslov').textContent = 'Probajte ponovo';
       } else {
          displayMessage('Izgubili ste 💥');
          document.querySelector('.score').textContent = 0;
          document.querySelector('body').style.backgroundColor = '#b33939';
+         document.querySelector('.naslov').textContent = 'Žao nam je';
       }
    }
 
