@@ -94,7 +94,7 @@ document.querySelector('.check').addEventListener
 document.querySelector('.again').addEventListener('click', function() {
    score = 20;
    secretNumber = Math.trunc(Math.random() * 20) + 1;
-   displayMessage('Start guessing...');
+   displayMessage('Pocnite pogadjati...');
    document.querySelector('.score').textContent = score;
    document.querySelector('.number').textContent = '?';
    document.querySelector('.guess').value = '';
